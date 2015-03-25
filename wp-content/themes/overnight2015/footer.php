@@ -6,17 +6,32 @@
  * @since   1.0.0
  */
 ?>
-		<div id="footer">
-			<?php echo get_theme_mod( 'tctheme_footer_message' ); ?>
-			&nbsp;
-			<div id="footer-title">
-				<?php if ( 'always' === get_theme_mod( 'tctheme_display_footer_title' ) ) { ?>
-					<?php bloginfo( 'title' ) ?>
-				<?php } ?>
-			</div><!-- #footer-title -->
-		</div><!-- #footer -->
-		
-	</div><!-- #page -->
+
+
+<footer class="row">
+<div class="large-12 columns">
+<hr/>
+<div class="row">
+<div class="large-6 columns">
+<p id="footer">&copy; <?php echo get_theme_mod( 'tctheme_footer_message' ); ?></p>
+</div>
+<div class="large-6 columns">
+<ul class="inline-list right">
+<li><a href="#">Link 1</a></li>
+<li><a href="#">Link 2</a></li>
+<li><a href="#">Link 3</a></li>
+<li><a href="#">Link 4</a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+
+
+
+
+	
+	<script data-main="<?php echo esc_url( get_template_directory_uri() ); ?>/js/main" src="<?php echo esc_url( get_template_directory_uri() ); ?>/bower_components/requirejs/require.js"></script>
 	<?php wp_footer(); ?>
 	</body>
 </html>

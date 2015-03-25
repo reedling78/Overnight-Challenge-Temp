@@ -18,6 +18,8 @@
     "tests"
   ],
   "devDependencies": {
-    "foundation": "zurb/bower-foundation"
+    "foundation": "zurb/bower-foundation",
+    "requirejs": "~2.1.16",
+    "requirejs-router": "~0.8.0"
   }
 }

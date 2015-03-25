@@ -67,38 +67,7 @@
 </div>
  
  
-<footer class="row">
-<div class="large-12 columns">
-<hr/>
-<div class="row">
-<div class="large-6 columns">
-<p>&copy; Copyright no one at all. Go to town.</p>
-</div>
-<div class="large-6 columns">
-<ul class="inline-list right">
-<li><a href="#">Link 1</a></li>
-<li><a href="#">Link 2</a></li>
-<li><a href="#">Link 3</a></li>
-<li><a href="#">Link 4</a></li>
-</ul>
-</div>
-</div>
-</div>
-</footer>
+
 	
-	<div id="content" class="site-content">
-		<p>
-			This is the site content. <a href="#">This is an anchor</a> so that we can tell the Theme Customizer is working.
-		</p>
-				
-		<div id="sample-file">
-			<?php if ( '' != get_theme_mod( 'tctheme_demo_file' ) ) { ?>
-				<?php echo get_theme_mod( 'tctheme_demo_file' ); ?>		
-			<?php } else { ?>
-				<p>There is no demo file.</p>
-			<?php } ?>
-		</div><!-- #sample-file -->
-		
-	</div><!-- #content -->
 	
 <?php get_footer(); ?>
