@@ -17,7 +17,7 @@
 </div>
 <div class="large-6 columns">
 <ul class="inline-list right">
-<li><a href="#">Link 1</a></li>
+<li><a href="<?php echo get_option('facebook_url') ?>">Facebook</a></li>
 <li><a href="#">Link 2</a></li>
 <li><a href="#">Link 3</a></li>
 <li><a href="#">Link 4</a></li>

@@ -1,5 +1,44 @@
 <?php
 
+
+/**
+ * Registers a new settings field on the 'General Settings' page of the WordPress dashboard.
+ */
+function ovn_initialize_theme_options() {
+
+	// Define the settings field
+	add_settings_field( 
+		'facebook_url', 					// The ID (or the name) of the field
+		'Facebook URL', 					// The text used to label the field
+		'ovn_facebook_url_display', 		// The callback function used to render the field
+		'general'							// The section to which we're adding the setting
+	);
+	
+	// Register the 'footer_message' setting with the 'General' section
+	register_setting(
+		'general',
+		'facebook_url'
+	);
+	
+} // end ovn_facebook_url_display
+add_action( 'admin_init', 'ovn_initialize_theme_options' );
+
+/**
+ * Renders the input field for the 'Footer Message' setting in the 'General Settings' section.
+ */
+function ovn_facebook_url_display() {
+	echo '<input type="text" name="facebook_url" id="facebook_url" value="' . get_option( 'facebook_url' ) . '" />';
+} // end demo_footer_message_display
+
+
+
+
+
+
+
+
+
+
 /**
  * Registers and enqueues the `theme-customizer.js` file responsible
  * for handling the transport messages for the Theme Customizer.
