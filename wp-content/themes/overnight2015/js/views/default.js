@@ -2,8 +2,5 @@
 
 define([], function () {
     'use strict';
-
-    
-    console.log('ssss');
-
+    console.log('Home Page');
 });

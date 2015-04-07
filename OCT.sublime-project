@@ -2,9 +2,19 @@
 	"folders":
 	[
 		{
+			"folder_exclude_patterns":
+			[
+				".svn",
+				".git",
+				".hg",
+				"CVS"
+			],
 			"follow_symlinks": true,
-			"path": ".",
-			"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS"]
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Applications/MAMP/htdocs/Overnight-Challenge-Temp/wp-content/themes/overnight2015"
 		}
 	]
 }
