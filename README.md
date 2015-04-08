@@ -9,3 +9,5 @@ You'll need an appache server to run Wordpress and MySQL I recomend MAMP. It's a
 
 ## Staging server
 http://overnight.nicoll.io
+user:admin
+pass:FontsOvernight
