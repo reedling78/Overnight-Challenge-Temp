@@ -7,4 +7,5 @@ Welcome to the template that is going to make our lives easier when participatin
 ### MAMP
 You'll need an appache server to run Wordpress and MySQL I recomend MAMP. It's avalable for both Windows and OSX [Download MAMP](http://www.mamp.info/en/downloads/).
 
-
+## Staging server
+http://overnight.nicoll.io
