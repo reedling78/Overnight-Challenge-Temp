@@ -7,9 +7,6 @@
  */
 ?>
 <?php get_header(); ?>
-
-
-<h1>something else</h1>
  
 <div class="row">
  

@@ -4,7 +4,7 @@
  *
  * This file has the following configurations: MySQL settings, Table Prefix,
  * Secret Keys, and ABSPATH. You can find more information by visiting
- * {@link http://codex.wordpress.org/Editing_wp-config.php Editing wp-config.php}
+ * {@link https://codex.wordpress.org/Editing_wp-config.php Editing wp-config.php}
  * Codex page. You can get the MySQL settings from your web host.
  *
  * This file is used by the wp-config.php creation script during the
@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'Overnight-Challenge-Temp');
+define('DB_NAME', 'database_name_here');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'username_here');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'password_here');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'z_OP-)m.I)C#k|iAz2)v3_e!nNM+8o#rSElKZOn(C+OZdOR^ZovOj+3qyQn;e]+Y');
-define('SECURE_AUTH_KEY',  'A7$_j5>1b7*lTBv,LCgE|;$g+KkzdCp&:Ms-1(T}|#f{e$4Q#:8bnM[s9Z%7a+D$');
-define('LOGGED_IN_KEY',    '^0kcF.+:ZsVK1^=1QL4$zh_ev$|x$cOTM[O38l5(K2&%1ZDSdKKc-oJQmzps;nP@');
-define('NONCE_KEY',        'dA AvAF!&?pz}TR0!~rSSEqvQO3&p%X_ 7HUU|7gCU<*,du+O3v@q-FPd{pIi,0N');
-define('AUTH_SALT',        'ps=QweN})^gsl[E#@MH+j.E<JrceL:b-HKuJsUMi+_;V|n,j:NNl.PQT$MLjAjlP');
-define('SECURE_AUTH_SALT', '=}=zt5uWttD}Wpgoguls,.!m1A5-$L$W)WU|#a|ITRsI>++N1Zu}Y+{@cZ V<d*L');
-define('LOGGED_IN_SALT',   '}L=U=a6V*N;}$7^plK3qH [DGJM}w?RRO%S$MGF]THELI`8Sk%?4 YGRs;Cw<4I4');
-define('NONCE_SALT',       'dod{H$yjfVwt%8?@#|OLmJ;M]TqpK{W3g%t4V(%$]r)o?H.6a/,Yhu7*RPunr{|c');
+define('AUTH_KEY',         'put your unique phrase here');
+define('SECURE_AUTH_KEY',  'put your unique phrase here');
+define('LOGGED_IN_KEY',    'put your unique phrase here');
+define('NONCE_KEY',        'put your unique phrase here');
+define('AUTH_SALT',        'put your unique phrase here');
+define('SECURE_AUTH_SALT', 'put your unique phrase here');
+define('LOGGED_IN_SALT',   'put your unique phrase here');
+define('NONCE_SALT',       'put your unique phrase here');
 
 /**#@-*/
 
