@@ -8,7 +8,7 @@
 ?>
 <?php get_header(); ?>
  
-<div class="row">
+<div class="row"> 
  
 <div class="large-9 columns" role="content">
 <article>
