@@ -7,6 +7,7 @@
  ?>
 
 <?php get_header(); ?>
+<h1>whatever</h1>
 
 	<div class="main-content large-8 columns" role="main">
 		<?php if ( have_posts() ) : while( have_posts() ) : the_post(); ?>
