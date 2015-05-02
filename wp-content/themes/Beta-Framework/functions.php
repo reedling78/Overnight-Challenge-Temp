@@ -1,4 +1,5 @@
 <?php 
+
 /**
  * functions.php
  *
@@ -13,6 +14,7 @@
 define( 'THEMEROOT', get_stylesheet_directory_uri() );
 define( 'IMAGES', THEMEROOT . '/images' );
 define( 'SCRIPTS', THEMEROOT . '/js' );
+define( 'BOWER', THEMEROOT . '/bower_components' );
 define( 'FRAMEWORK', get_template_directory() . '/framework' );
 
 

@@ -25,6 +25,6 @@
 	</footer> <!-- end site-footer -->
 
 	<?php wp_footer(); ?>
-	<script data-main="<?php echo esc_url( get_template_directory_uri() ); ?>/js/main" src="<?php echo esc_url( get_template_directory_uri() ); ?>/bower_components/requirejs/require.js"></script>
+	<script data-main="<?=SCRIPTS?>/main" src="<?=BOWER?>/requirejs/require.js"></script>
 </body>
 </html>
